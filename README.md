@@ -71,18 +71,16 @@ Final Output (speaker + language with timestamps)
 ## Project Structure
 
 ```
-├── data/                # Input audio files
-├── models/              # Saved or pretrained models
-├── notebooks/           # Experiments
-├── src/
+├── DD/                # Diarization files
 │   ├── preprocessing.py
 │   ├── feature_extraction.py
 │   ├── diarization.py
 │   ├── language_id.py
 │   └── pipeline.py
-├── outputs/             # Results
-├── requirements.txt
-└── README.md
+├── labels/              # Dataset without audio files(can download the merlion ccs challenge dataset)
+├── README     
+├── fine_tuning.py.txt   # for Language Identification
+└── running model.py     # full pipeline
 ```
 
 ## Installation
